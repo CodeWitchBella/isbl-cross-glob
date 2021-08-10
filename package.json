@@ -10,6 +10,9 @@
     "prepublishOnly": "isbl-publisher prepublishOnly",
     "publish:npm": "isbl-publisher publish $HOME/.avocode/gitlab-token"
   },
+  "bin": {
+    "cross-glob": "./bin.js"
+  },
   "files": [
     "bin.js"
   ],
