@@ -1,6 +1,6 @@
 {
   "name": "@isbl/cross-glob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility for using globs in scripts in cross-platform manner",
   "repository": {
     "type": "git",
