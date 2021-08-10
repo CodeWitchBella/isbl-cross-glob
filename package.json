@@ -1,0 +1,27 @@
+{
+  "name": "@isbl/cross-glob",
+  "version": "0.0.0",
+  "description": "utility for using globs in scripts in cross-platform manner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeWitchBella/isbl-cross-glob.git"
+  },
+  "scripts": {
+    "prepublishOnly": "isbl-publisher prepublishOnly",
+    "publish:npm": "isbl-publisher publish $HOME/.avocode/gitlab-token"
+  },
+  "files": [
+    "bin.js"
+  ],
+  "author": "Isabella Skořepová <isabella@skorepova.info>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "glob": "^7.1.7"
+  },
+  "devDependencies": {
+    "@isbl/publisher": "^0.4.1",
+    "prettier": "^2.3.2"
+  }
+}
