@@ -24,7 +24,10 @@
     "glob": "^7.1.7"
   },
   "devDependencies": {
-    "@isbl/publisher": "^0.4.1",
+    "@isbl/publisher": "^0.7.1",
     "prettier": "^2.3.2"
+  },
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
   }
 }
